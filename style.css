@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: navy;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+
+}
+.logo{
+    color: white;
+    padding: 20px;
+}
+
+nav{
+    display: inline-block;
+    float: right;
+    border-right: 2px solid blue;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    list-style:none;
+    height: 35px;
+    padding: 0px 15px 0px 15px;
+    float: left;
+    background-color: #fff;
+    
+}
+
+nav ul li a{
+    line-height: 35px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+aside{
+    width: 30%;
+    float: left;
+}
+
+section{
+    width: 69%;
+    float: left;
+}
+img{
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+
+.pclass1{
+    padding: 10;
+    font-size: 18px;
+
+}
+.pclass2{
+    background-color:black;
+    color:white;
+
+}

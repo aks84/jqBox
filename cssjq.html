@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>jQuery </title> 
+</head>
+<body>
+
+
+
+    <p class="mypara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum assumenda eius temporibus perferendis distinctio sed facere, sunt officiis animi, voluptates ratione veritatis repellat expedita est ducimus dolor quaerat! Odit saepe, enim sed officiis magnam at, distinctio ea odio nulla repellat quod itaque recusandae incidunt blanditiis, consequuntur dolorem voluptas totam suscipit fugiat molestias ipsum assumenda hic autem tenetur! Ducimus maiores laudantium, accusamus deleniti placeat veritatis porro aspernatur inventore harum, quidem culpa praesentium maxime dicta ab libero sit aliquid itaque asperiores exercitationem. Corrupti illo inventore nulla quia facere, quis quibusdam ipsam atque? Voluptatem sapiente quaerat illum placeat incidunt! Doloremque, blanditiis velit eveniet eos dolores quis assumenda nulla necessitatibus nihil quod quisquam quidem adipisci dolorem omnis totam ipsa ullam laudantium rem. Sequi ex doloremque eos perspiciatis distinctio nihil, quo illo aut fuga facilis laborum sint dolores nostrum quod asperiores vel voluptatum explicabo, dolorum eveniet iure. Incidunt dolor mollitia repellendus pariatur laudantium, tempora nesciunt in adipisci enim quisquam beatae fugiat amet magnam quo inventore, cum ea cumque accusamus placeat dicta debitis facilis. Totam necessitatibus tempora, dolorem voluptatibus soluta dolor placeat molestiae dolore voluptate vitae sapiente aliquam magni accusamus, inventore nam minus maxime porro laborum eos delectus ipsum quod. Necessitatibus inventore maiores dolores eveniet quo qui libero pariatur, voluptas ut repellendus facilis, sit incidunt veniam, excepturi aspernatur autem illo soluta odit ratione sint deleniti perspiciatis tempore accusantium. Id minus ipsum, enim facere corporis exercitationem repudiandae suscipit, rerum, voluptates aspernatur labore? Quibusdam sapiente repellendus totam optio sequi facere cupiditate, voluptas magnam ducimus accusantium tempora, amet architecto.</p><br>
+    <button class="btn1">Style Para</button><br>
+    <button class="btn2">Append css class</button><br>
+
+    <button class="rmbtn">Reset Style</button>
+    
+</body>
+<script>
+$(document).ready(function(){
+    // style the paragraph by adding the css class
+    $(".btn1").click(function(){
+    $('.mypara').addClass('pclass1');
+    
+    });
+    // remove the css class
+    $(".rmbtn").click(function(){
+        $(".mypara").removeClass('pclass1 pclass2');
+    });
+    // apped css class to the mypara <p> element
+    $(".btn2").click(function(){
+        $(".mypara").addClass("pclass2");
+    });
+});
+
+</script>
+
+</html>
